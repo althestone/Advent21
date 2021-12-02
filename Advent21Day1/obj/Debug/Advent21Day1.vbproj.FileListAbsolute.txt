@@ -1,0 +1,8 @@
+C:\Users\astone.B103-OFFICE-01\RiderProjects\Advent21Day1\Advent21Day1\bin\Debug\Advent21Day1.exe
+C:\Users\astone.B103-OFFICE-01\RiderProjects\Advent21Day1\Advent21Day1\bin\Debug\Advent21Day1.pdb
+C:\Users\astone.B103-OFFICE-01\RiderProjects\Advent21Day1\Advent21Day1\bin\Debug\Advent21Day1.xml
+C:\Users\astone.B103-OFFICE-01\RiderProjects\Advent21Day1\Advent21Day1\obj\Debug\Advent21Day1.vbproj.AssemblyReference.cache
+C:\Users\astone.B103-OFFICE-01\RiderProjects\Advent21Day1\Advent21Day1\obj\Debug\Advent21Day1.vbproj.CoreCompileInputs.cache
+C:\Users\astone.B103-OFFICE-01\RiderProjects\Advent21Day1\Advent21Day1\obj\Debug\Advent21Day1.exe
+C:\Users\astone.B103-OFFICE-01\RiderProjects\Advent21Day1\Advent21Day1\obj\Debug\Advent21Day1.xml
+C:\Users\astone.B103-OFFICE-01\RiderProjects\Advent21Day1\Advent21Day1\obj\Debug\Advent21Day1.pdb
