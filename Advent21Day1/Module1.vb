@@ -41,28 +41,30 @@ Module Module1
         Next
         Return count
     End Function
-    Function  d2p1()
-        dim f as new StreamReader("C:\advent\day2p1.txt")
-        dim l as new List(Of string)
+Function d2p2()
+        Dim f As New StreamReader("day2.txt")
+        Dim l As New List(Of String)
         Do
             l.Add(f.ReadLine())
-            
-        Loop until f.EndOfStream
-        dim depth,h as Integer
-        depth = 0
+
+        Loop Until f.EndOfStream
+
+        Dim aim, depth, h As Integer
+        aim = 0
         h = 0
-        for each com in l
-            dim direction = com.Split((" "))
-            select case direction(0)
-case "forward"
-    h += direction(1)
-    case "down"
-        depth += direction(1)
-        case "up"
-            depth -= direction(1)
+        depth = 0
+        For Each com In l
+            Dim direction = com.Split((" "))
+            Select Case direction(0)
+                Case "forward"
+                    h += direction(1)
+                    depth += aim * direction(1)
+                Case "down"
+                    aim += direction(1)
+                Case "up"
+                    aim -= direction(1)
             End Select
+
         Next
-        Return h*depth
-        
-    End Function
+        Return h * depth
 End Module
